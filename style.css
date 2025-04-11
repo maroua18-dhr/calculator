@@ -47,7 +47,6 @@ form .display {
 
 form .display input {
     text-align: right;
-    flex: 1;
     font-size: 36px;
     padding: 10px;
     border-radius: 10px;
