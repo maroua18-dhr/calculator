@@ -20,7 +20,7 @@ body {
 }
 
 .calculator {
-    background: #321838;
+    background: #06141B;
     padding: 20px;
     border-radius: 10px;
     width: 100%;
@@ -47,13 +47,13 @@ form .display {
 
 form .display input {
     text-align: right;
+    flex: 1;
     font-size: 36px;
     padding: 10px;
     border-radius: 10px;
-    border: none;
     background-color: #fff;
     color: #000;
-    max-width: 100%;
+    max-width: 100%
 }
 
 .buttons {
@@ -64,26 +64,26 @@ form .display input {
 
 form input.equal {
     grid-column: span 2;
-    background-color: #c03cb9;
+    background-color: #253745;
     color: #000;
     font-weight: bold;
 }
 
 form input.AC {
     grid-column: span 2;
-    background-color: #dd6ff3;
+    background-color: #445868;
     font-weight: bold;
     color: #000;
 }
 
 form input.operator {
-    background-color: #dd6ff3;
+    background-color: #5c768b;
     color: #171818;
     font-weight: bold;
 }
 
 form input.num {
-    background-color: #ecadf8;
+    background-color: #9BABAB;
     color: #000;
     font-weight: bold;
 }
@@ -94,17 +94,17 @@ input:hover {
 }
 
 form input.operator:hover {
-    background-color: #e69ff5;
+    background-color: #9BABAB;
 }
 
 form input.AC:hover {
-    background-color: #c03cb9;
+    background-color: #5c768b;
 }
 
 form input.equal:hover {
-    background-color: #972e92;
+    background-color: #5c768b;
 }
 
 form input.num:hover {
-    background-color: #f1c5fa;
+    background-color: #CCD0CF;
 }
